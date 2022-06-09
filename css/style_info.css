@@ -1,0 +1,272 @@
+.info{
+    min-height: 2650px;
+    padding-top: 60px;
+}
+.head{
+    /* position: absolute;  */
+    height: 363px;  
+    /* background-color: #fa8900; */
+    background-image: url(../img/info_head.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.entry-content h1, .entry-header h1, .entry-title {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 0 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.entry-content h1:after, .entry-content h2:after, .entry-header h1:after, .entry-header h2:after, .entry-title:after {
+    content: '';
+    display: block;
+    margin: 17px auto 20px;
+    padding: 0;
+    width: 135px;
+    border-top: 3px solid #fab517;
+}
+
+.entry-content > p {
+    margin-bottom: 1.5em;
+    font-weight: 300;
+}
+
+.entry-content ul, ol {
+    margin: 0 0 1.5em 3em;
+}
+
+.entry-content > p+div {
+    margin-top: 45px;
+  }
+  
+  .page-links {
+    clear: both;
+    margin: 0 0 1.5em;
+  }
+
+  .gearbox-block a {
+    position: relative;
+    padding: 14px 0px;
+    border: 3px solid #fab617;
+    background: transparent!important;
+}
+
+.price-block {
+    padding: 40px;
+    background: #f3f2f2;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.style-text-1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.style-text-5 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.style-text-2 {
+    font-size: 24px;
+    line-height: 26px;
+    display: inline-block;
+    padding: 25px 30px;
+    background: url(https://xn--92-6kcaj2chwb1b5d.xn--p1ai/wp-content/themes/autowkola/images/bg_1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+}
+
+.tarif {
+    padding-top: 5px;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000;
+    width: 100%;
+    max-width: 325px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.price-block p.style-text-3 {
+    font-size: 14px!important;
+    color: #d52121;
+    line-height: 17px;
+}
+
+.style-text-4 {
+    font-size: 18px;
+    color: #d52121;
+    line-height: 17px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.step-price{
+    margin-top: 60px;
+}
+
+.step-price > p {
+    margin-bottom: 0;
+}
+
+.title-30 {
+    font-size: 35px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.entry-content ul li {
+    list-style: inherit;
+    margin-bottom: 15px;
+}
+
+.step-price li {
+    position: relative;
+    padding-left: 45px;
+    font-size: 15px;
+    min-height: 36px;
+    margin-bottom: 5px;
+    display: table;
+    vertical-align: middle;
+}
+
+
+
+.kp{
+    display: flex;
+    justify-content: center;
+}
+
+.entry-content ul li {
+    list-style: inherit;
+    margin-bottom: 15px;
+}
+
+.step-price li b, .step-price li .bold_text {
+    font-size: 36px;
+    line-height: 20px;
+    color: #cacaca;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7px;
+}
+
+.step-price li span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.step-price+.what-me-2 {
+    margin-top: 40px;
+}
+
+.what-me-2 {
+    margin: 0;
+    background: #f4f4f4;
+    border: none;
+}
+
+.what-me-2 .title-30 {
+    position: relative;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    top: auto;
+    left: auto;
+    margin-left: 0;
+    width: 100%;
+    background: none;
+    padding-top: 25px;
+}
+
+.reasons {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.what-me-2 .reasons {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.what-me-2 .reasons-1 {
+    background: url(https://xn--92-6kcaj2chwb1b5d.xn--p1ai/wp-content/themes/autowkola/images/why_me_icon_1_1.png
+    ) center top no-repeat;
+}
+
+.what-me-2 .reasons-2 {
+    background: url(	https://xn--92-6kcaj2chwb1b5d.xn--p1ai/wp-content/themes/autowkola/images/why_me_icon_2_1.png) center top no-repeat;
+}
+
+.what-me-2 .reasons-3 {
+    background: url(	https://xn--92-6kcaj2chwb1b5d.xn--p1ai/wp-content/themes/autowkola/images/why_me_icon_3_1.png) center top no-repeat;
+}
+
+.what-me-2 .reasons-4 {
+    background: url(	https://xn--92-6kcaj2chwb1b5d.xn--p1ai/wp-content/themes/autowkola/images/why_me_icon_4_1.png) center top no-repeat;
+}
+
+.age-info {
+    padding: 75px 0 65px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.age-big {
+    float: left;
+    width: 48%;
+    font-size: 30px;
+    color: #9d9d9d;
+    font-weight: 600;
+}
+
+.age-description {
+    float: right;
+    width: 52%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.gearbox-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.gearbox-block a {
+    position: relative;
+    padding: 14px 0px;
+    border: 3px solid #fab617;
+    background: transparent!important;
+}
+.gearbox-block a:hover {
+    color: #fab617!important;
+}

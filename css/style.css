@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    /* width: 1140px; */
+    margin: 0 auto;
+}
+
+.main_block{
+    padding: 39px 0 62px 0;
+
+}
+
+.logo {
+   margin-top: 150px;
+   
+}
+
+.logo .logo_img{
+    display:block;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.logo .logo_text{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    font-family: Noto Sans;
+}
+
+.logo .logo_text .bolt{
+    font-weight: bold ;
+}
+
+.logo .logo_text2{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    font-family: Noto Sans;
+}
+
+.logo .logo_text2 .ot{
+    color: #FF981F;
+}
+
+.logo .quad{
+    display:block;
+    margin: 0 auto;
+    width: 100px;
+    height: 10px;
+    background: #FF981F;
+}
+
+.button_arrai{
+    margin-top: 100px;
+}
+.flex-container{
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/* div.flex-container{
+    width: 30%; 
+    height: 400px; 
+    margin: 150px; 
+    padding: 0px;
+} */
+
+.main_buttons{
+    font-size: 40px;
+    font-family: Noto Sans;
+    min-width: 600px;
+    min-height: 120px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    background-color: white;
+    mix-blend-mode: normal;
+    border: 2px solid #DFDFDF;
+    border-radius: 10px;
+    box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.25), 0px 18px 18px rgba(0, 0, 0, 0.25);
+}
+
